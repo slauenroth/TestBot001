@@ -6,6 +6,6 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 public class NachrichtenReaktion extends ListenerAdapter {
 
     public void onMessageReceived(MessageReceivedEvent event) {
-        System.out.println("Nachrist erhalten: " + event.getMessage().getContentDisplay());
+        System.out.println("Nachricht erhalten: " + event.getMessage().getContentDisplay());
     }
 }
